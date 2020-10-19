@@ -1,0 +1,8 @@
+Header: 
+    -> Logo 
+    -> Hostel name
+    -> Menu
+    -> Login/Logout
+
+Footer:
+    -> Copyright/year

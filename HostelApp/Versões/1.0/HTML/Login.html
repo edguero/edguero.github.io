@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelWorld</title>
+    <link rel="stylesheet" href="/Versões/1.0/CSS/style.css">
+    <script src="/Versões/1.0/JS/script.js"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <img class="logo" src="/Images/example.png" alt="logo">
+        <nav>
+          <ul class="menu">
+            <li><a href="Home.html">Home</a></li>
+          </ul>
+        </nav>
+        <a class="login-register" href="Login.html"><button>Login | Register</button></a>
+      </header>
+
+    <!--Form-->
+    <section class="layout">
+        <div>
+            <form name="form" method="GET">
+                <h2>HostelWorld - Employee Login</h2>
+                <input type="text" name="username" required="required" placeholder="  Username..." />
+                <input type="password" name="password" required="required" placeholder="  Password..." />
+                <input type="button" value="Sing In" onclick="login(this.form)">
+            </form>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p>All Right Reserved by &copy;conceptial 2020</p>
+    </footer>
+</body>
+
+</html>

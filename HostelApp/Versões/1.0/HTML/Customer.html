@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostelWorld</title>
+    <link rel="stylesheet" href="/Versões/1.0/CSS/style.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <header>
+        <img class="logo" src="/Images/example.png" alt="logo">
+        <nav>
+          <ul class="menu">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Guests.html">Guests</a></li>
+          </ul>
+        </nav>
+        <a class="login-register" href="Login.html"><button>Login | Register</button></a>
+      </header>
+
+    <!--Form-->
+    <form method="post">
+        <h2>Create guest</h2>
+        <!--Name, lastName, email, phone-->
+        <section class="create-guest" id="one-one">
+            <div>
+                <input type="text" id="firstName" required="required" placeholder="  First Name..." name="user_firstName">
+                <input type="email" id="email" required="required" placeholder="  E-mail Address..." name="user_email">
+            </div>
+            <div>
+                <input type="text" id="lastName" required="required" placeholder="  Last Name..." name="user_lastName">
+                <input type="text" id="phone" required="required" placeholder="  Phone number..." name="user_phoneNumber">
+            </div>
+        </section>
+        <!--Address-->
+        <section class="create-guest">
+            <div>
+                <input type="text" id="address" required="required" placeholder="  Address..." name="user_address">
+            </div>
+        </section>
+        <!--Country/State-->
+        <section class="create-guest" id="three-one">
+            <div>
+                <input type="text" id="country" required="required" placeholder="  Country..." name="user_country">
+            </div>
+            <div>
+                <input type="text" id="state" required="required" placeholder="  State..." name="user_state">
+            </div>
+        </section>
+        <!--Create/Cancel-->
+        <section class="layout" id="one-one">
+            <div>
+                <u><a href="Guests.html">Return to all guests</a></u>
+            </div>
+            <div>
+                <input type="button" value="Create" onclick="create(this.form)">
+            </div>
+        </section>  
+    </form>
+
+    <!--Footer-->
+    <footer>
+        <p>All Right Reserved by &copy;conceptial 2020</p>
+    </footer>
+
+</body>
+
+</html>
